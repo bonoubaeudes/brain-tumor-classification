@@ -140,8 +140,8 @@ Graph → GCN → Latent (VAE) → GRU → Classifier
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/vgrnn-mri.git
-cd vgrnn-mri
+git clone https://github.com/bonoubaeudes/brain-tumor-classification.git
+cd brain-tumor-classification
 
 pip install -r requirements.txt
 ```
