@@ -1,0 +1,18 @@
+train_path: "/kaggle/input/datasets/bienvenubonou/graph-data/data_graphs_all.pt"
+test_path: "/kaggle/input/datasets/bienvenubonou/graph-data/data_graphs_test_all.pt"
+
+hidden_dim: 128
+num_layers: 3
+dropout: 0.3
+num_classes: 4
+
+epochs: 100
+batch_size: 32
+
+lr: 0.0003
+weight_decay: 0.0001
+
+n_folds: 5
+patience: 15
+
+output_dir: "/kaggle/working/gcn_5fold"
