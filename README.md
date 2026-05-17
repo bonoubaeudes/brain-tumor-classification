@@ -22,15 +22,15 @@ This approach aims to improve:
 
 ## 🧠 Key Contributions
 
-* 🧩 Graph-based representation of MRI using **SLIC superpixels**
-* 🔄 Novel use of **VGRNN for static medical images via simulated temporal dynamics**
-* 🎲 Explicit modeling of **uncertainty through latent variables**
-* 📊 Analysis of **confidence calibration and misclassification behavior**
-* 🔍 Integration of **explainability techniques (e.g., Grad-CAM on graph features)**
+*  Graph-based representation of MRI using **SLIC superpixels**
+*  Novel use of **VGRNN for static medical images via simulated temporal dynamics**
+*  Explicit modeling of **uncertainty through latent variables**
+*  Analysis of **confidence calibration and misclassification behavior**
+*  Integration of **explainability techniques (e.g., Grad-CAM on graph features)**
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 * Brain MRI dataset with 4 classes:
 
@@ -39,7 +39,7 @@ This approach aims to improve:
   * Pituitary tumor
   * No tumor
 
-📁 Expected structure:
+ Expected structure:
 
 ```bash
 data/
@@ -54,7 +54,7 @@ data/
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. Image → Graph Conversion
 
@@ -101,7 +101,7 @@ Graph → GCN → Latent (VAE) → GRU → Classifier
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 ### Metrics
 
@@ -117,7 +117,7 @@ Graph → GCN → Latent (VAE) → GRU → Classifier
 
 ---
 
-## 🔍 Explainability
+##  Explainability
 
 * Adaptation of **Grad-CAM** for graph-based representations
 * Visualization of important regions in MRI
@@ -125,7 +125,7 @@ Graph → GCN → Latent (VAE) → GRU → Classifier
 
 ---
 
-## 🚀 Results (Example)
+##  Results (Example)
 
 | Model            | Accuracy |
 | ---------------- | -------- |
@@ -133,11 +133,11 @@ Graph → GCN → Latent (VAE) → GRU → Classifier
 | GCN              | XX%      |
 | **VGRNN (ours)** | XX%      |
 
-👉 Replace with your real results
+ Replace with your real results
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/bonoubaeudes/brain-tumor-classification.git
@@ -148,7 +148,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### Train model
 
@@ -164,7 +164,7 @@ python test.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 .
@@ -179,7 +179,7 @@ python test.py
 
 ---
 
-## 🔬 Research Context
+##  Research Context
 
 This project lies at the intersection of:
 
@@ -191,12 +191,12 @@ It is particularly motivated by **medical AI applications in resource-constraine
 
 ---
 
-## 📜 Citation
+##  Citation
 
 ```bibtex
 @article{bonou2025vgrnn,
   title={Explainable and Uncertainty-Aware VGRNN for Brain Tumor Classification},
-  author={Bonou, Bienvenu},
+  author={Bonou Bienvenu A. Eudes, Aurelle Tchagna Kouanou, Oumar Kane},
   year={2025}
 }
 ```
