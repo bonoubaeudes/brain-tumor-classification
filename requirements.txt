@@ -10,3 +10,4 @@ tqdm>=4.65.0
 PyYAML>=6.0
 munch>=2.5.0
 torch-geometric>=2.6.1
+scikit-image>=0.24.0
